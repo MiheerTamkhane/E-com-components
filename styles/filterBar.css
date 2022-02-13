@@ -46,20 +46,23 @@ label {
 }
 /* Products styles  */
 .products-container {
-  /* border: 5px solid black; */
   width: 100%;
+  margin: 2rem;
+}
+.products-qty-div {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
   align-items: center;
+  gap: 0.5rem;
 }
 .products {
-  margin: 0 auto;
-  margin: 4rem 2rem;
+  padding: 1rem 0;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 2rem;
 }
+
 .ct-basic-card {
   align-items: flex-start;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
