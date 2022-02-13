@@ -14,13 +14,19 @@
   text-align: center;
   color: var(--gray-100);
   font-size: 2rem;
-  opacity: 1;
   background: rgba(0, 0, 0, 0.25);
 }
 .hero-container h1 {
   padding: 1rem;
 }
-
+.ct-btn a {
+  text-decoration: none;
+  color: var(--gray-100);
+}
+.main-cta {
+  font-size: 1.6rem;
+  margin: 1rem;
+}
 /* Section container styles below  */
 .section-container {
   max-width: 80%;
