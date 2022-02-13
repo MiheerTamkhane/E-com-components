@@ -24,6 +24,9 @@ img {
   height: 100%;
   object-fit: cover;
 }
+a {
+  text-decoration: none;
+}
 
 .ct-btn {
   font-family: "Avenir Next";
