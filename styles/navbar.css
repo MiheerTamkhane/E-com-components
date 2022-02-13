@@ -1,6 +1,6 @@
 /* navbar styles below  */
 .nav {
-  color: var(--violet-500);
+  color: var(--violet-700);
   background: var(--gray-100);
 }
 .nav-logo {
@@ -28,7 +28,7 @@ span.nav-icons:hover {
   border-color: var(--violet-500);
 }
 .ct-violet-btn {
-  background-color: var(--violet-500);
+  background-color: var(--violet-700);
   color: var(--gray-100);
   transition: all ease 250ms;
 }

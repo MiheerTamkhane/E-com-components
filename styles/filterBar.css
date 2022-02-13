@@ -1,0 +1,79 @@
+.products-page {
+  display: flex;
+  /* flex-wrap: wrap; */
+}
+
+.filter-bar {
+  width: 18.75rem;
+  min-height: 80vh;
+  border-right: 1px solid var(--gray-300);
+  padding: 2rem;
+}
+
+.filter-comp {
+  display: flex;
+
+  justify-content: space-between;
+  margin: 1rem 0;
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+  align-items: center;
+}
+.filter-heading {
+  margin-bottom: 0.5rem;
+}
+.prices {
+  display: flex;
+  justify-content: space-between;
+}
+.range {
+  padding-top: 0.2rem;
+  width: 100%;
+}
+
+.list {
+  list-style: none;
+}
+.list li {
+  padding: 0.2rem 0;
+}
+.list input,
+label {
+  cursor: pointer;
+}
+/* Products styles  */
+.products-container {
+  width: 100%;
+  margin: 2rem;
+}
+.products-qty-div {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+}
+.products {
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.ct-basic-card {
+  align-items: flex-start;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+.ct-product-stats {
+  flex-wrap: wrap;
+}
+.ct-product-stats > * {
+  padding: 0.2rem 0;
+}
+.ct-product-stats h4 {
+  color: var(--gray-700);
+}
