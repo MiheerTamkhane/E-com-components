@@ -18,7 +18,9 @@
 .ct-checkbox-div {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  gap: 0.3rem;
+  flex-wrap: wrap;
+  /* justify-content: space-evenly; */
 }
 .ct-checkbox[type="checkbox"] {
   accent-color: var(--violet-500);
