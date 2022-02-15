@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Cart</title>
+    <link
+      rel="stylesheet"
+      href="https://crystal-ui.netlify.app/components.css"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/navbar.css" />
+    <link rel="stylesheet" href="./styles/cart.css" />
+  </head>
+  <body>
+    <nav class="nav-bar nav">
+      <div class="nav-logo"><h1>Cristals</h1></div>
+      <div class="ct-right-nav">
+        <div class="nav-searchbar">
+          <input type="search" placeholder="Search..." class="ct-input" />
+          <button class="ct-btn ct-violet-btn">Search</button>
+        </div>
+        <div class="ct-nav-user">
+          <div class="ct-nav-icons icon-div">
+            <div class="basic-badge">
+              <a href="./wishlist.html"
+                ><span class="material-icons nav-icons"> favorite </span></a
+              >
+              <span class="badge-pop ct-red">4</span>
+            </div>
+          </div>
+          <div class="ct-nav-icons icon-div">
+            <div class="basic-badge">
+              <a href="./cart.html">
+                <span class="material-icons nav-icons"> shopping_cart </span></a
+              >
+
+              <span class="badge-pop ct-red">4</span>
+            </div>
+          </div>
+          <div class="ct-nav-icons icon-div">
+            <div class="basic-badge">
+              <span class="material-icons nav-icons"> person </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <main class="cart-page">
+      <h2>My Cart</h2>
+      <p class="shop-link"><a href="./products.html">Continue Shopping</a></p>
+      <section class="my-cart">
+        <table class="cart-items">
+          <tr>
+            <th>Product</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Total</th>
+          </tr>
+          <tr>
+            <td>
+              <a class="horizontal">
+                <img
+                  src="./images/necklace2.jpg"
+                  alt="fish"
+                  class="ct-img-lg"
+                />
+                <div class="ct-product-stats hori-stats">
+                  <h4>Sol Citrine Necklace</h4>
+                  <div class="ct-card-btns">
+                    <button class="ct-btn ct-red cart-remove">REMOVE</button>
+                  </div>
+                </div>
+              </a>
+            </td>
+            <td>$ 72.60</td>
+            <td>
+              <input type="number" class="qty-input" />
+            </td>
+            <td>$ 72.60</td>
+          </tr>
+          <tr>
+            <td>
+              <a class="horizontal">
+                <img
+                  src="./images/necklace2.jpg"
+                  alt="fish"
+                  class="ct-img-lg"
+                />
+                <div class="ct-product-stats hori-stats">
+                  <h4>Sol Citrine Necklace</h4>
+                  <div class="ct-card-btns">
+                    <button class="ct-btn ct-red cart-remove">REMOVE</button>
+                  </div>
+                </div>
+              </a>
+            </td>
+            <td>$ 72.60</td>
+            <td>
+              <input type="number" class="qty-input" />
+            </td>
+            <td>$ 72.60</td>
+          </tr>
+          <tr>
+            <td>
+              <a class="horizontal">
+                <img
+                  src="./images/necklace2.jpg"
+                  alt="fish"
+                  class="ct-img-lg"
+                />
+                <div class="ct-product-stats hori-stats">
+                  <h4>Sol Citrine Necklace</h4>
+                  <div class="ct-card-btns">
+                    <button class="ct-btn ct-red cart-remove">REMOVE</button>
+                  </div>
+                </div>
+              </a>
+            </td>
+            <td>$ 72.60</td>
+            <td>
+              <input type="number" class="qty-input" />
+            </td>
+            <td>$ 72.60</td>
+          </tr>
+          <tr>
+            <td>
+              <a class="horizontal">
+                <img
+                  src="./images/necklace2.jpg"
+                  alt="fish"
+                  class="ct-img-lg"
+                />
+                <div class="ct-product-stats hori-stats">
+                  <h4>Sol Citrine Necklace</h4>
+                  <div class="ct-card-btns">
+                    <button class="ct-btn ct-red cart-remove">REMOVE</button>
+                  </div>
+                </div>
+              </a>
+            </td>
+            <td>$ 72.60</td>
+            <td>
+              <input type="number" class="qty-input" />
+            </td>
+            <td>$ 72.60</td>
+          </tr>
+        </table>
+
+        <a class="text-card checkout">
+          <div class="text-container">
+            <h3>Subtotal: $290.4</h3>
+            <p>Tax included Shipping calculated a checkout.</p>
+          </div>
+          <div class="text-card-btn">
+            <label for="checkout-input">
+              <input type="checkbox" id="checkout-input" /> 🎁Add gift
+              wrap</label
+            >
+            <button class="ct-btn ct-blue">CHECK OUT</button>
+          </div>
+        </a>
+      </section>
+    </main>
+  </body>
+</html>
