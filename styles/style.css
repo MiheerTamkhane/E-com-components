@@ -31,3 +31,6 @@ a {
 .ct-btn {
   font-family: "Avenir Next";
 }
+input[type="checkbox"] {
+  accent-color: var(--violet-500);
+}
