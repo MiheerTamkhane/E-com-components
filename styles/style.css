@@ -17,7 +17,7 @@ body {
   font-family: "Avenir Next";
   background: var(--gray-100);
   color: var(--gray-500);
-  letter-spacing: 0.03em;
+  letter-spacing: 1.6;
 }
 img {
   width: 100%;
