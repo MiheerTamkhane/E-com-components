@@ -1,0 +1,35 @@
+.form-container {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ct-form {
+  border: none;
+  border-radius: 7px;
+  box-shadow: 0 5px 2rem rgba(0, 0, 0, 0.15);
+}
+.ct-form h2 {
+  color: var(--gray-700);
+}
+.ct-violet-btn {
+  margin: 0;
+}
+.ct-checkbox-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.ct-checkbox[type="checkbox"] {
+  accent-color: var(--violet-500);
+}
+
+.login-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--gray-500);
+}
+.login-link:hover {
+  color: var(--gray-700);
+}
