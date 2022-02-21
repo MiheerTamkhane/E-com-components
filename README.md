@@ -46,7 +46,7 @@ HTML & CSS
 
 ## Acknowledgements
 
- - [Soulstice London](https://www.soultsticelondon.com)
+ - [Soulstice London](https://www.soulsticelondon.com)
  - [Canva](https://www.canva.com/)
  - [neoG](https://neog.camp/)
 
